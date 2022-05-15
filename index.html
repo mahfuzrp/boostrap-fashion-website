@@ -6,11 +6,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootstrap fashion website</title>
     <link rel="stylesheet" href="style.css" />
-    <link el="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    />
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"></script>
   </head>
   <body>
-      <section></section>
+    <section class="header">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"
+          ><img src="images/fashion-logo.jpg" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">POLICY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONDITION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">DOWNLOAD</a>
+            </li>
+          </ul>
+
+          <ul class="right-menu ml-auto">
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-pinterest"></i></li>
+
+            <li>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Search" />
+                <div class="input-group-append">
+                  <span class="input-group-text"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="banner">
+        <div class="banner-img">
+          <img src="images/banner.jpg" />
+        </div>
+        <div class="banner-title">
+          <h1>FASHION STORY</h1>
+          <h1>WOMEN'S LIFESTYLE</h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------Fashion Trends--------- -->
+
+    <section class="fashion-trends">
+      <div class="container">
+        <div class="fashion-box">
+          <div class="title-style text-center">
+            <h1>FASHION TRENDS</h1>
+          </div>
+          <p class="text-center">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque
+            quidem pariatur sapiente repellat commodi voluptatibus nisi
+            aspernatur delectus vitae quam, illum fuga! Ea, sit. Iste commodi
+            illo dignissimos hic reprehenderit consectetur sequi. Iste commodi
+            illo dignissimos hic reprehenderit consectetur sequi. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Pariatur, sunt?
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="trending-img">
+              <img src="images/trend-1.jpg" alt="" />
+              <button type="button" class="btn-buy">Buy Now</button>
+              <div class="overlay"></div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="trending-img">
+              <img src="images/trend-2.jpg" alt="" />
+              <button type="button" class="btn-buy">Buy Now</button>
+              <div class="overlay"></div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="trending-img">
+              <img src="images/trend-3.jpg" alt="" />
+              <button type="button" class="btn-buy">Buy Now</button>
+              <div class="overlay"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
