@@ -137,3 +137,147 @@
     opacity: .5;
     height: 100%;
 }
+
+
+/* ---------offer-------- */
+.offer{
+    background-image: url(images/fashion.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.offer .row{
+    margin: initial !important;
+}
+.subscribe{
+    max-width: 500px;
+    margin-top: 80px;
+    padding: 60px;
+    background: #ffffff8c;
+    margin-bottom: 20px;
+}
+.subscribe a{
+    width: 100px;
+    display: block;
+    color: #fff !important;
+    background: black;
+    text-decoration: none !important;
+    padding: 5px;
+    text-align: center;
+}
+.offer img{
+    width: 300px;
+    height: 400px;
+    margin: -100px;
+    margin-top: 150px;
+}
+.fashion-blog{
+    margin: 250px 0 150px 0;
+}
+.blog-img{
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+}
+.fashion-blog h5{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.fashion-brands{
+    margin-bottom: 150px;
+}
+.brand-logo{
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 50px auto 30px;
+    box-shadow: 0 2px 40px 0 rgba(110,130,208,.18);
+}
+.brand-logo img{
+    width: 100px;
+    margin: 50px auto;
+}
+.fashion-brands p{
+    margin-top: 30px ;
+    font-weight: bold;
+}
+
+
+/* -------------footer----------- */
+.footer{
+    margin-top: 150px;
+    background: #f5f6fc;
+}
+.payment,.insta-img,.app-download{
+    margin: 50px auto;
+}
+.payment img{
+    width: 300px;
+    cursor: pointer;
+}
+.insta-img img{
+    width: 75px;
+    padding: 5px;
+    cursor: pointer;
+}
+.app-download img{
+    width: 200px;
+    
+}
+.footer h5{
+    margin-bottom: 50px;
+}
+.footer h5::before{
+    content: '';
+    width: 70px;
+    height: 3px;
+    background: #4f74e8;
+    top: 80px;
+    position: absolute;
+}
+.footer-icons{
+    text-align: right;
+}
+.footer-icons .fa-brands{
+    margin: 0 10px auto;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+/* ------------for small device */
+@media only screen and (max-width: 900px){
+    .banner-img{
+        margin: 40px auto;
+        width: 80%;
+    }
+    .banner-title{
+        top: 180px;
+        left: 50%;
+        transform: translateX(-25%);
+    }
+    .banner-title h1{
+        font-size: 16px;
+        padding: 5px;
+        line-height: 20px;
+    }
+    .title-style h1{
+        font-size: 25px;
+    }
+    .offer img{
+        margin-top: 20px !important;
+        margin-bottom: 0 !important;
+    }
+    .footer-icons{
+        text-align: center;
+    }
+    .copyright{
+        text-align: center;
+    }
+}
